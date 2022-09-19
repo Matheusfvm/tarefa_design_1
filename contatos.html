@@ -20,11 +20,22 @@
         align-items: center;
       }
       /* O display: flex, faz com que a div utilize o layout
-      flexível */
+        flexível */
       /* O flex-direction: row, diz que o conteúdo daquela div vai ser disposto em linhas horizontais */
 
       p {
         text-align: center;
+      }
+
+      ul {
+        position: absolute;
+        list-style-type: none;
+        padding: 0;
+        margin-top: -400px;
+      }
+
+      li {
+        display: inline;
       }
 
       a {
@@ -34,7 +45,15 @@
   </head>
   <body>
     <div>
-      <a href="index.html">Index</a>
+      <ul>
+        <li>
+          <a href="index.html">Index</a>
+        </li>
+        <li>
+          <a href="">Contatos</a>
+        </li>
+      </ul>
+
       <a href="https://lotr.fandom.com/wiki/Main_Page" target="_blank">
         Site escolhido
       </a>
